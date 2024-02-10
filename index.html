@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Studio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <main>
+      <section class="advantages">
+        <div class="container advantages-container">
+          <ol class="advantages-list">
+            <li class="advantages-item">
+              <p class="advantages-num current">01</p>
+              <p class="advantages-text">
+                Swimming and water sports: try your hand<br />at water skiing
+              </p>
+            </li>
+            <li class="advantages-item">
+              <p class="advantages-num current">02</p>
+              <p class="advantages-text">
+                Fishing: try to catch your own dinner
+              </p>
+            </li>
+            <li class="advantages-item">
+              <p class="advantages-num current">03</p>
+              <p class="advantages-text">
+                Sightseeing tours: take a shore or island tour, enjoy the views
+                and sunsets from the water
+              </p>
+            </li>
+            <li class="advantages-item">
+              <p class="advantages-num current">04</p>
+              <p class="advantages-text">
+                Rest and relaxation: read a book or listen to music while
+                enjoying the outdoor atmosphere.
+              </p>
+            </li>
+          </ol>
+
+          <div class="advantages-foto">
+            <picture class="advantages-pictr">
+              <source
+                srcset="
+                  ./images/advantages_desk1440_1x.jpg 1x,
+                  ./images/advantages_desk1440_2x.jpg 2x
+                "
+                media="(min-width: 1440px)"
+              />
+              <source
+                class="advantages-pictr"
+                srcset="
+                  ./images/advantages_desk1280_1x.jpg 1x,
+                  ./images/advantages_desk1280_2x.jpg 2x
+                "
+                media="(min-width: 1280px)"
+              />
+              <source
+                class="advantages-pictr"
+                srcset="
+                  ./images/advantages_tab_1x.jpg 1x,
+                  ./images/advantages_tab_2x.jpg 2x
+                "
+                media="(min-width: 768px)"
+              />
+              <source
+                class="advantages-pictr"
+                srcset="
+                  ./images/advantages_mob_1x.jpg 1x,
+                  ./images/advantages_mob_2x.jpg 2x
+                "
+                media="(max-width: 767px)"
+              />
+              <img
+                class="advantages-pictr"
+                src="./images/advantagess_desk1280_2x.jpg"
+                alt="Advantages"
+              />
+            </picture>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
