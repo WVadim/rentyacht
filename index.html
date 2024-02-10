@@ -21,74 +21,75 @@
   </head>
   <body>
     <main>
-      <section class="advantages">
-        <div class="container advantages-container">
-          <ol class="advantages-list">
-            <li class="advantages-item">
-              <p class="advantages-num current">01</p>
-              <p class="advantages-text">
-                Swimming and water sports: try your hand<br />at water skiing
-              </p>
-            </li>
-            <li class="advantages-item">
-              <p class="advantages-num current">02</p>
-              <p class="advantages-text">
-                Fishing: try to catch your own dinner
-              </p>
-            </li>
-            <li class="advantages-item">
-              <p class="advantages-num current">03</p>
-              <p class="advantages-text">
-                Sightseeing tours: take a shore or island tour, enjoy the views
-                and sunsets from the water
-              </p>
-            </li>
-            <li class="advantages-item">
-              <p class="advantages-num current">04</p>
-              <p class="advantages-text">
-                Rest and relaxation: read a book or listen to music while
-                enjoying the outdoor atmosphere.
-              </p>
-            </li>
-          </ol>
+      <section class="container-rent">
+        <div class="rent-yacht">
+          <div class="rent-form-container">
+            <h2 class="rent-head">Rent a yacht now</h2>
 
-          <div class="advantages-foto">
-            <picture class="advantages-pictr">
+            <form class="rent-form">
+              <input
+                class="rent-form-input"
+                type="text"
+                name="username"
+                placeholder="Full Name"
+              />
+
+              <input
+                class="rent-form-input"
+                type="email"
+                name="username"
+                placeholder="Email"
+              />
+
+              <input
+                class="rent-form-input"
+                type="tel"
+                name="username"
+                placeholder="Phone number"
+              />
+              <textarea
+                name="user-comment"
+                class="rent-form-text"
+                placeholder="Comment"
+              ></textarea>
+              <button type="submit" class="rent-submit-btn">Send</button>
+            </form>
+          </div>
+
+          <div class="yacht-picture">
+            <picture>
               <source
                 srcset="
-                  ./images/advantages_desk1440_1x.jpg 1x,
-                  ./images/advantages_desk1440_2x.jpg 2x
+                  ./images/rent_desk_1440_1x-min.jpg 1x,
+                  ./images/rent_desk_1440_2x-min.jpg 2x
                 "
                 media="(min-width: 1440px)"
               />
               <source
-                class="advantages-pictr"
-                srcset="
-                  ./images/advantages_desk1280_1x.jpg 1x,
-                  ./images/advantages_desk1280_2x.jpg 2x
-                "
                 media="(min-width: 1280px)"
+                srcset="
+                  ./images/rent_desk_1280_1x-min.jpg 1x,
+                  ./images/rent_desk_1280_2x-min.jpg 2x
+                "
               />
               <source
-                class="advantages-pictr"
-                srcset="
-                  ./images/advantages_tab_1x.jpg 1x,
-                  ./images/advantages_tab_2x.jpg 2x
-                "
                 media="(min-width: 768px)"
+                srcset="
+                  ./images/rent_tab_1x-min.jpg 1x,
+                  ./images/rent_tab_2x-min.jpg 2x
+                "
               />
               <source
-                class="advantages-pictr"
-                srcset="
-                  ./images/advantages_mob_1x.jpg 1x,
-                  ./images/advantages_mob_2x.jpg 2x
-                "
                 media="(max-width: 767px)"
+                srcset="
+                  ./images/rent_mob_1x-min.jpg 1x,
+                  ./images/rent_mob_2x-min.jpg 2x
+                "
               />
               <img
-                class="advantages-pictr"
-                src="./images/advantagess_desk1280_2x.jpg"
-                alt="Advantages"
+                class="yacht-picture-img"
+                src="./images/rent_desk_1440_2x-min.jpg"
+                alt="Rent yacht"
               />
             </picture>
           </div>
